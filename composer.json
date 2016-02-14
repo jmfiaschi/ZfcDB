@@ -1,0 +1,23 @@
+{
+	"name" : "jmfiaschi/zfc-db",
+	"description" : "give abstract layer for database",
+	"keywords" : [
+		"zfc",
+		"db"
+	],
+	"authors" : [{
+			"name" : "Jean-Marc Fiaschi",
+			"email" : "jm.fiaschi@gmail.com"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3.3",
+		"zf-commons/zfc-base" : "0.*"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"ZfcDB" : "src/"
+		}
+	},
+	"minimum-stability" : "dev"
+}
